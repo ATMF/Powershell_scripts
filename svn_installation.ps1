@@ -20,7 +20,7 @@
 # If you have made it till here, you are on your own now ;)
 
 # start
-cd 'c:\'
-wget http://52.187.62.107/svn.exe
+cd 'c:\temp'
+wget http://52.187.62.107/svn.exe -outfile svn.exe
 start-sleep -s 10
 .\svn.exe  /passive
